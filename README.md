@@ -98,9 +98,7 @@ detectionforge/
 ├── requirements.txt · .env.example · LICENSE (CC-BY 4.0)
 ```
 
-> 🚨 **Never commit your API key.** `.env` is git-ignored; `.env.example` ships placeholders only.
 
-## Evaluation results
 
 `python -m eval.eval_harness` scores each rule on syntax, ATT&CK recall, convertibility, and specificity against a hand-labelled ground-truth set.
 
